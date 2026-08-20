@@ -1,6 +1,16 @@
 # 模块地图 L1:这个模块怎么跑、依赖谁。
 id: sql-db-0820
+lang: unknown
 entrypoints: []
 depends_on: []
-features: []
+doc: genome/knowledge/modules/sql-db-0820/overview.md
+confidence: 0.3
+features:
+- id: scaffold
+  summary: 仓库占位脚手架,当前无业务代码
+  scope:
+  - repos/sql-db-0820/README.md
+  produced_by: knowledge-init@2.5.0
+  no_card: 模块当前只含一个 13 字节的 README.md 占位,没有任何业务代码、构建入口或测试;没有可提炼的不变量、异常路径或测试证据,写卡片只会编造。待仓库填充真实代码后由后续
+    knowledge-init 补全。
 submaps: []

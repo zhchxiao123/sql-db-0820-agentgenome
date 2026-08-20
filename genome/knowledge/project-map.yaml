@@ -1,11 +1,12 @@
 # 知识地图 L0 根索引:项目是什么、有哪些模块、去哪找它们。
 # 「这个模块怎么跑」属于 modules/<id>/map.yaml;跨模块契约属于 interfaces.yaml。
-version: 1
+version: 2
+updated_at: '2026-08-20T11:59:20.698829Z'
 project:
   name: sql-db-0820
   summary: ''
 modules:
 - id: sql-db-0820
   path: repos/sql-db-0820/
-  summary: ''
+  summary: 空仓库占位:挂载的 sql-db-0820 业务仓当前只有 README,无业务代码
   map: modules/sql-db-0820/map.yaml
